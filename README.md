@@ -7,4 +7,6 @@ Each cell is updated according to the states of its 3 left neighbors and 3 right
 This makes it easy to use the rule to seed the first row, so that we watch the rule transform itself as an example of its style. 
 
 I also did a version that uses Raylib for output.
+![rot64_A](https://user-images.githubusercontent.com/90075803/209187884-842bcec8-3b0b-4631-9df1-0dcb82bc499d.png)
+
 
