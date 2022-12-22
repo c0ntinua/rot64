@@ -1,10 +1,6 @@
-// mod bits; use bits::*;
-// mod test; use test::*;
 use rand::random;
 fn main() {
-    let f = random::<u64>();
-    let mut s = f;
-    print!("{:064b}\n", f);
+    let f = random::<u64>();let mut s = f;print!("{:064b}\n", f);
     for _ in 0..32 { prnt(s); s = turn(s,f);}
 }
 
